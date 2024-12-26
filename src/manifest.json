@@ -1,0 +1,33 @@
+{
+    "name": "俄罗斯方块",
+    "appid": "",
+    "description": "Vue3 + uni-app 俄罗斯方块小游戏",
+    "versionName": "1.0.0",
+    "versionCode": "100",
+    "transformPx": false,
+    "app-plus": {
+        "usingComponents": true,
+        "nvueStyleCompiler": "uni-app",
+        "compilerVersion": 3
+    },
+    "mp-weixin": {
+        "appid": "",
+        "setting": {
+            "urlCheck": false
+        },
+        "usingComponents": true
+    },
+    "vueVersion": "3",
+    "h5": {
+        "title": "俄罗斯方块",
+        "router": {
+            "mode": "hash",
+            "base": "/"
+        },
+        "devServer": {
+            "port": 3000,
+            "disableHostCheck": true,
+            "hot": true
+        }
+    }
+} 
